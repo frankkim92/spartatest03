@@ -1,0 +1,333 @@
+ body {
+     background: #eee;
+     height: 240vw;
+ }
+
+ .navbar {
+     position: fixed;
+     width: 100%;
+     height: 10%;
+     z-index: 5;
+     top: 0px;
+
+
+ }
+
+ .navbar-brand {
+     transition: all 1s;
+ }
+
+ .container {
+
+     /* background: white; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 200px;
+
+
+
+ }
+
+ .box {
+     padding: 20px;
+     background: white;
+     text-align: center;
+     border-radius: 40px;
+     width: 434px;
+     height: 700px;
+     max-width: 80%;
+     display: block;
+     margin-left: 0px;
+     margin-right: 0px;
+     border: 1px solid #9664FF;
+
+ }
+
+ .profile-header {
+     font-size: 32px;
+     font-weight: bold;
+     padding: 20px;
+     background-color: white;
+     text-align: left;
+     border-bottom: 1px solid cornflowerblue;
+
+ }
+
+ .profile-img {
+     width: 250px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 50%;
+
+
+ }
+
+ .profile-second {
+     margin-top: 50px;
+ }
+
+ .profile-third {
+     padding: 20px;
+ }
+
+ .btn-delete {
+     border-radius: 20px;
+     font-size: 15px;
+     padding: 10px;
+     background-color: #eee;
+     border: none;
+ }
+
+ .btn-modify {
+     border-radius: 20px;
+     font-size: 15px;
+     background-color: #9664FF;
+     color: white;
+     padding: 10px;
+     border: none;
+
+ }
+
+ .profile-main {
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .profile-main p,
+ .profile-bottom p {
+     font-size: 24px;
+     font-weight: bold;
+     text-align: left;
+     margin-left: 10px;
+
+ }
+
+ .profile-main span {
+     color: gray;
+     text-decoration-line: underline;
+     margin-right: 10px;
+
+ }
+
+
+ .profile-hash {
+
+     margin-top: 15px;
+     text-align: left;
+
+ }
+
+ .tag1,
+ .tag2,
+ .tag3 {
+     width: 50px;
+     height: 50px;
+     background-color: #eee;
+     color: #9664FF;
+     border-radius: 15px;
+     padding: 10px;
+     margin-left: 10px;
+     font-size: 15px;
+ }
+
+
+
+ .profile-bottom {
+     margin-top: 50px;
+ }
+
+ .profile-bottom div {
+     color: #9664FF;
+     text-align: left;
+     margin-left: 13px;
+     margin-top: 15px;
+ }
+
+
+
+ .box2 {
+     padding: 20px;
+     background: white;
+     text-align: center;
+     border-radius: 40px;
+     width: 291;
+     height: 620px;
+     max-width: 80%;
+     display: block;
+     margin-left: 0px;
+     margin-right: 0px;
+     border: 1px solid cornflowerblue;
+ }
+
+
+ .profile-name {
+     padding: 20px;
+     font-size: 38px;
+     font-weight: bold;
+ }
+
+ .profile-second-2 {
+     margin-top: 10px;
+ }
+
+
+ .profile-text {
+
+     color: gray;
+     padding: 25px;
+     font-size: 18px;
+
+ }
+
+ .profile-music {
+     margin-top: 1px;
+ }
+
+
+ .profile-music span {
+
+     padding: 10px;
+     background-color: white;
+     border-radius: 30px;
+     box-shadow: 10px 5px 5px gray;
+
+ }
+
+ .profile-music span i {
+
+     color: #9664FF;
+ }
+
+ .profile-hash {
+     margin-top: 30px;
+ }
+
+ .profile-hash-2 {
+     margin-top: 50px;
+ }
+
+
+ .profile-hash :hover {
+     background-color: #9664FF;
+     color: #eee;
+     box-shadow: 5px 3px 3px gray;
+
+ }
+
+ .header-title {
+     background: red;
+
+ }
+
+ .header-text {
+     float: left;
+ }
+
+ .header-pic {
+     float: left
+ }
+
+ .main-title h1 {
+     font-weight: bold;
+     text-align: center;
+     font-size: 32px;
+     padding: 20px;
+     margin-top: -50px;
+     /* background-color: red; */
+ }
+
+ .main-title p,
+ .main-title2 p {
+     font-size: 24px;
+     font-weight: 300;
+     text-align: center;
+ }
+
+ .main-title2 h1 {
+     font-weight: bold;
+     text-align: center;
+     font-size: 32px;
+     padding: 20px;
+     margin-top: 50px;
+     /* background-color: red; */
+ }
+
+
+
+
+ /* 애플뮤직ui  */
+
+
+ .box,
+ .box2 {
+     display: block;
+     margin: auto;
+     max-width: 80%;
+ }
+
+ .box,
+ .box2 {
+     position: sticky;
+     top: 100px;
+     margin-top: 100px;
+     transition: all 0.5s;
+ }
+
+ .main-header {
+     background-color: #eee;
+     width: 1600px;
+     height: 1000px;
+     color: blue;
+ }
+
+
+
+
+ /* 팀페이지 삭제하기*/
+ /* .window-2 {
+     background-color: cornflowerblue;
+     color: white;
+     text-align: center;
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .window-2 p {
+     color: whitesmoke;
+     font-weight: 600;
+ }
+
+ .mybtn {
+     width: 200px;
+     height: 50px;
+     border-radius: 10px;
+     background-color: black;
+     color: white;
+     font-size: 24px;
+
+ } */
+
+
+ .team-btn {
+     margin-top: 50px;
+     font-size: 28px;
+     border-radius: 15px;
+     padding: 10px;
+     background-color: #9664FF;
+     color: white;
+ }
+
+ .team-btn:active {
+     color: white;
+     background-color: cornflowerblue;
+ }
